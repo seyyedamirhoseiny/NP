@@ -32,22 +32,22 @@ proxies:
   - {name: "📢 https://t.me/irnova_proxy", server: 192.0.2.1, port: 443, type: vmess, uuid: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, alterId: 0, cipher: auto, tls: true, servername: "frosty-valley-7b68.vprelaytest.workers.dev", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "frosty-valley-7b68.vprelaytest.workers.dev"}}, udp: false}
   - {name: "📊 0.00GB / 9999GB (0%) | 📅 2099-01-01", server: 192.0.2.1, port: 443, type: vmess, uuid: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, alterId: 0, cipher: auto, tls: true, servername: "frosty-valley-7b68.vprelaytest.workers.dev", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "frosty-valley-7b68.vprelaytest.workers.dev"}}, udp: false}
   - {name: "سرویس رایگان نوا @irnova_proxy frosty-valley-7b68.vprelaytest.workers.dev:443 [VLESS]", server: frosty-valley-7b68.vprelaytest.workers.dev, port: 80, type: vless, uuid: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: frosty-valley-7b68.vprelaytest.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.34.5:2083 [TROJAN]", server: 104.19.34.5, port: 2082, type: trojan, password: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, sni: frosty-valley-7b68.vprelaytest.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: frosty-valley-7b68.vprelaytest.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 172.66.3.66:8443 [SS]", server: 172.66.3.66, port: 8443, type: ss, cipher: aes-128-gcm, password: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-valley-7b68.vprelaytest.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.148.41:2087 [VLESS]", server: 104.19.148.41, port: 2086, type: vless, uuid: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: frosty-valley-7b68.vprelaytest.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.150.111:443 [TROJAN]", server: 104.16.150.111, port: 80, type: trojan, password: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, sni: frosty-valley-7b68.vprelaytest.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: frosty-valley-7b68.vprelaytest.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.223.50:2053 [SS]", server: 104.17.223.50, port: 2053, type: ss, cipher: aes-128-gcm, password: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-valley-7b68.vprelaytest.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 172.67.69.78:2053 [VLESS]", server: 172.67.69.78, port: 2052, type: vless, uuid: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: frosty-valley-7b68.vprelaytest.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.50.172:443 [TROJAN]", server: 104.17.50.172, port: 80, type: trojan, password: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, sni: frosty-valley-7b68.vprelaytest.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: frosty-valley-7b68.vprelaytest.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.182.107:443 [SS]", server: 104.17.182.107, port: 443, type: ss, cipher: aes-128-gcm, password: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-valley-7b68.vprelaytest.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.211.164:443 [VLESS]", server: 104.17.211.164, port: 80, type: vless, uuid: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: frosty-valley-7b68.vprelaytest.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.52.144:2083 [TROJAN]", server: 104.19.52.144, port: 2082, type: trojan, password: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, sni: frosty-valley-7b68.vprelaytest.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: frosty-valley-7b68.vprelaytest.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.61.55:2096 [SS]", server: 104.17.61.55, port: 2096, type: ss, cipher: aes-128-gcm, password: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-valley-7b68.vprelaytest.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 8.35.211.239:2083 [VLESS]", server: 8.35.211.239, port: 2082, type: vless, uuid: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: frosty-valley-7b68.vprelaytest.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.39.183:8443 [TROJAN]", server: 162.159.39.183, port: 8080, type: trojan, password: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, sni: frosty-valley-7b68.vprelaytest.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: frosty-valley-7b68.vprelaytest.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.35.248:443 [SS]", server: 104.19.35.248, port: 443, type: ss, cipher: aes-128-gcm, password: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-valley-7b68.vprelaytest.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.111.2:2096 [VLESS]", server: 104.17.111.2, port: 2095, type: vless, uuid: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: frosty-valley-7b68.vprelaytest.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.145.182:2096 [TROJAN]", server: 104.17.145.182, port: 2095, type: trojan, password: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, sni: frosty-valley-7b68.vprelaytest.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: frosty-valley-7b68.vprelaytest.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.107.15:443 [TROJAN]", server: 104.17.107.15, port: 80, type: trojan, password: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, sni: frosty-valley-7b68.vprelaytest.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: frosty-valley-7b68.vprelaytest.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.181.201:2053 [SS]", server: 104.17.181.201, port: 2053, type: ss, cipher: aes-128-gcm, password: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-valley-7b68.vprelaytest.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.155.19:8443 [VLESS]", server: 104.17.155.19, port: 8080, type: vless, uuid: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: frosty-valley-7b68.vprelaytest.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.191.250:2087 [TROJAN]", server: 104.17.191.250, port: 2086, type: trojan, password: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, sni: frosty-valley-7b68.vprelaytest.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: frosty-valley-7b68.vprelaytest.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 91.193.58.221:2096 [SS]", server: 91.193.58.221, port: 2096, type: ss, cipher: aes-128-gcm, password: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-valley-7b68.vprelaytest.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.33.230:8443 [VLESS]", server: 104.18.33.230, port: 8080, type: vless, uuid: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: frosty-valley-7b68.vprelaytest.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 188.164.248.49:8443 [TROJAN]", server: 188.164.248.49, port: 8080, type: trojan, password: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, sni: frosty-valley-7b68.vprelaytest.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: frosty-valley-7b68.vprelaytest.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.34.140:2087 [SS]", server: 104.19.34.140, port: 2087, type: ss, cipher: aes-128-gcm, password: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-valley-7b68.vprelaytest.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.183.195:2087 [VLESS]", server: 104.17.183.195, port: 2086, type: vless, uuid: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: frosty-valley-7b68.vprelaytest.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 8.39.125.213:2087 [TROJAN]", server: 8.39.125.213, port: 2086, type: trojan, password: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, sni: frosty-valley-7b68.vprelaytest.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: frosty-valley-7b68.vprelaytest.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.152.117:2053 [SS]", server: 104.16.152.117, port: 2053, type: ss, cipher: aes-128-gcm, password: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-valley-7b68.vprelaytest.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.254.204:2087 [VLESS]", server: 104.16.254.204, port: 2086, type: vless, uuid: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: frosty-valley-7b68.vprelaytest.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 172.67.77.77:2096 [TROJAN]", server: 172.67.77.77, port: 2095, type: trojan, password: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, sni: frosty-valley-7b68.vprelaytest.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: frosty-valley-7b68.vprelaytest.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.52.139:2083 [SS]", server: 104.19.52.139, port: 2083, type: ss, cipher: aes-128-gcm, password: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: frosty-valley-7b68.vprelaytest.workers.dev, path: "/?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.39.174:2087 [VLESS]", server: 162.159.39.174, port: 2086, type: vless, uuid: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: frosty-valley-7b68.vprelaytest.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.33.5:2053 [TROJAN]", server: 104.18.33.5, port: 2052, type: trojan, password: dfadf260-d3ab-48b6-8abc-5579bd16ffa8, sni: frosty-valley-7b68.vprelaytest.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: frosty-valley-7b68.vprelaytest.workers.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -70,22 +70,22 @@ proxy-groups:
       - "📢 https://t.me/irnova_proxy"
       - "📊 0.00GB / 9999GB (0%) | 📅 2099-01-01"
       - سرویس رایگان نوا @irnova_proxy frosty-valley-7b68.vprelaytest.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.34.5:2083 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.66.3.66:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.148.41:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.150.111:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.223.50:2053 [SS]
-      - سرویس رایگان نوا @irnova_proxy 172.67.69.78:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.50.172:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.182.107:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.211.164:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.52.144:2083 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.61.55:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 8.35.211.239:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.39.183:8443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.19.35.248:443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.111.2:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.145.182:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.107.15:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.181.201:2053 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.155.19:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.191.250:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 91.193.58.221:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.230:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.49:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.34.140:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.183.195:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.213:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.16.152.117:2053 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.254.204:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.77.77:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.52.139:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 162.159.39.174:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.33.5:2053 [TROJAN]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
